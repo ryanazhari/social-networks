@@ -1,0 +1,248 @@
+/* Style Utilities */
+@font-face {
+    font-family: 'lato-font';
+    src: url('LatoRegular.ttf') format('truetype');
+}
+
+* {
+    font-family: 'lato-font', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato-font', sans-serif;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.bgTry {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.shape {
+    width: 100%;
+}
+/* Navbar Stye */
+.nav-box {
+    height: 75px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.navbar {
+    width: 100%;
+    margin-top: -75px;
+    padding: 20px 0;
+    height: 75px;
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+}
+
+.navbar-collapse {
+    background-color: #FFF;
+}
+
+.navbar-brand span {
+    font-weight: bold;
+    color: #555;
+}
+
+.nav-item {
+    margin: 0 25px;
+}
+
+.btn-web {
+    display: inline-block;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 0;
+    transition: .3s ease-in;
+    color: #FFF;
+    background-color: #00DFC0;
+    text-decoration: none;
+}
+
+.btn-web:hover {
+    color: rgb(54, 253, 210);
+    text-decoration: none;
+    background-color: rgb(6, 139, 122);
+}
+
+/* Content Style */
+.content {
+    margin-top: 100px;
+}
+
+.content img {
+    width: 100%;
+}
+
+.bullet span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #00DFC0;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.teks h1 {
+    margin-top: 15px;
+    font-size: 52px;
+    color: #555555;
+}
+
+.teks p {
+    font-size: 22px;
+    color: #666666;
+    line-height: 36px;
+    font-weight: 100;
+    margin-top: 20px;
+    letter-spacing: 32;
+}
+
+.content .letsgo {
+    width: 200px;
+    height: 42px;
+    line-height:42px;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    color: #FFF;
+    transition: .4s ease-in;
+    background-color: #00DFC0;
+    border-radius: 26px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.content .letsgo:hover {
+    color: rgb(54, 253, 210);
+    background-color: rgb(6, 139, 122);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .inner-width {
+        max-width: 400px;
+        margin: 0 auto;
+        /* background-color: aquamarine; */
+    }
+    /* Navbar Style */
+    .btn-web {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* Content Style */
+    .content {
+        margin-top: 30px;
+    }
+    .bullet span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-color: #00DFC0;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+    
+    .teks h1 {
+        margin: 0;
+        font-size: 38px;
+        color: #555555;
+    }
+    
+    .teks p {
+        font-size: 18px;
+        color: #666666;
+        line-height: 24px;
+        font-weight: 100;
+        letter-spacing: 20;
+    }
+    
+    .content .letsgo {
+        width: 150px;
+        height: 42px;
+        line-height:42px;
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+        color: #FFF;
+        background-color: #00DFC0;
+        border-radius: 26px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .shape {
+        margin-top: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .inner-width {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    /* Navbar Style */
+    .btn-web {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-item {
+        margin: 0 15px;
+    }
+    /* Content Style */
+    .content {
+        margin-top: 30px;
+    }
+    .bullet span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #00DFC0;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .inner-width {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .btn-web {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-item {
+        margin: 0 15px;
+    }
+    /* Content Style */
+    .content {
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .inner-width {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .nav-item {
+        margin: 0 10px;
+    }
+}
